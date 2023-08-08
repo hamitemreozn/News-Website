@@ -1,0 +1,28 @@
+.gazeteler a:hover{
+    text-decoration: none;
+}
+.gundem a:hover {
+    text-decoration: none;
+}
+.saglik img {
+    width: 35%;
+}
+.aciklama {
+    width: 63%;
+    margin-left: 2%;
+}
+.aciklama b {
+    font-size: 18px;
+}
+.spor a:hover, .teknoloji a:hover {
+    text-decoration: none;
+}
+.alt a:hover {
+    text-decoration: none;
+}
+.sosyal img {
+    transition: .3s;
+}
+.sosyal img:hover {
+    transform: scale(1.1);
+}

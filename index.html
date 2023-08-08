@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>SON DAKİKA HABER</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <a href="index.html" class="navbar-brand">
+            <img src="media/baslik.png" alt="" class="align-top">
+        </a>
+
+        <!-- Button on Small Screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NavBar Links -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link text-warning font-weight-bold">SON DAKİKA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SPOR</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">EKONOMİ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SAĞLIK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">SİYASET</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">EMLAK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">MAGAZİN</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">DÜNYA</a>
+                </li>
+
+                <!-- Dropdown Menu and Items in Navbar -->
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" id="acilirmenu" role="button"
+                        data-toggle="dropdown">DİĞER</a>
+                    <div class="dropdown-menu shadow">
+                        <a href="" class="dropdown-item">YAŞAM</a>
+                        <a href="" class="dropdown-item">TEKNOLOJİ</a>
+                        <a href="" class="dropdown-item">MEDYA</a>
+                        <a href="" class="dropdown-item">KÜLTÜR</a>
+                        <a href="" class="dropdown-item">KİTAP</a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="form-inline my-2 my-lg-0">
+                <input type="search" name="" id="" class="form-control mr-sm-2" placeholder="Haber Ara...">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Ara</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Slider Section and Card News -->
+    <div class="container my-3">
+        <div class="row">
+
+            <!-- Slider Section -->
+            <div class="col-md-7">
+                <div id="carouselhaber" class="carousel slide border rounded" data-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <!-- Carousel Images and Captions -->
+                        <div class="carousel-item active">
+                            <img src="media/slide1.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="text-shadow: 1px 1px black;">Güzel Havanın Tadını Çıkarttılar</h5>
+                                <p style="text-shadow: 1px 1px black;">Havanın tadını çıkartmak isteyenler, sahil
+                                    beldelerine akın etti.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="media/slide2.webp" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="text-shadow: 1px 1px black;">İTÜ Öğrencileri</h5>
+                                <p style="text-shadow: 1px 1px black;">3D Yazıcılarla Biyonik Uzuvlar Üreten ve Ücretsiz
+                                    Dağıtan İTÜ Öğrencileri</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="media/slide3.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="text-shadow: 1px 1px black;">Canan Dağdeviren</h5>
+                                <p style="text-shadow: 1px 1px black;">Buluşlarıyla Dünyaya Adını Duyuran Canan
+                                    Dağdeviren</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="media/slide4.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="text-shadow: 1px 1px black;">Şeref Yaman</h5>
+                                <p style="text-shadow: 1px 1px black;">Yardıma Muhtaç Kargaların Bakımını Üstlenen Şeref
+                                    Yaman</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="media/slide5.png" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="text-shadow: 1px 1px black;">Abdulkadir Doğan</h5>
+                                <p style="text-shadow: 1px 1px black;">Bakkal Dükkanını Kütüphaneye Dönüştüren
+                                    Abdulkadir Doğan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arrow Keys (Previous - Next) -->
+                    <a href="#carouselhaber" role="button" data-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Önceki</span>
+                    </a>
+                    <a href="#carouselhaber" role="button" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Sonraki</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card News -->
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header">
+                        <b class="text-danger">SON DAKİKA HABERLERİ</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="clearfix">
+                            <a href="" class="text-dark">
+                                <img src="media/sondakika1.png" alt="" class="w-25 float-left">
+                                <b class="float-left" style="width: 73%; margin-left: 2%;">Bodrum'un Golden Çetesi ve
+                                    Liderleri Şenol Kaplan</b>
+                            </a>
+                        </div>
+                        <div class="clearfix mt-2">
+                            <a href="" class="text-dark">
+                                <img src="media/sondakika2.png" alt="" class="w-25 float-left">
+                                <b class="float-left" style="width: 73%; margin-left: 2%;">Hurda Satarak Kedileri
+                                    Besleyen Ömer İçöz</b>
+                            </a>
+                        </div>
+                        <div class="clearfix mt-2">
+                            <a href="" class="text-dark">
+                                <img src="media/sondakika3.png" alt="" class="w-25 float-left">
+                                <b class="float-left" style="width: 73%; margin-left: 2%;">Azmiyle Engelleri Aştı, 7
+                                    Yılda Burnuyla Kitap Yazdı</b>
+                            </a>
+                        </div>
+                        <div class="clearfix mt-2">
+                            <a href="" class="text-dark">
+                                <img src="media/sondakika4.png" alt="" class="w-25 float-left">
+                                <b class="float-left" style="width: 73%; margin-left: 2%;">Tarihi Bir Kilisenin Bakımını
+                                    Üstlenen Mahalle İmamı Metin Halıcı</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Caption-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4>GAZETELER</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- News -->
+    <div class="container-fluid bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-deck gazeteler">
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete1.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Star</b>
+                            </a>
+                        </div>
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete2.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Sabah</b>
+                            </a>
+                        </div>
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete3.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Yeni Şafak</b>
+                            </a>
+                        </div>
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete4.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Milliyet</b>
+                            </a>
+                        </div>
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete5.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Türkiye</b>
+                            </a>
+                        </div>
+                        <div class="card text-center shadow">
+                            <a href="" class="text-dark">
+                                <img src="media/gazete6.jpg" alt="" class="card-img-top">
+                                <b class="pb-1 d-block">Hürriyet</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agenda and Authors-->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-12 border-bottom">
+                        <h4>GÜNDEM</h4>
+                    </div>
+                    <div class="row gundem">
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (1).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">60 Yaşında Üniversite Kazanan Fadime Topbaş</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (2).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Kalbi Duran Kediyi Hayata Döndüren Doktorlar</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (3).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Tunceli'den Robert Koleji'ne Uzanan Bir Yol</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (4).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">"Ya Okuyan, Ya Okutan Olacağız"</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (5).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Türkiye'nin Yüreğini Sızlatan Çift Yeni İneklerine
+                                            Kavuştu</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (6).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Buldukları Parayı İade Eden Öğrenciler</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (7).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Bulduğu Hazineyi Teslim Eden Mehmet Yazar</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (8).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">Camisini Sokak Kedilerine Açan İmam Mustafa Efe</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card my-3">
+                                <a href="" class="text-dark">
+                                    <img src="media/gundem (9).png" alt="" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <b class="card-title">400 Proje Arasından Birinci Olan Elifnaz Şentürk</b>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Authors -->
+            <div class="col-md-3">
+                <div class="col-12 border-bottom">
+                    <h4>YAZARLAR</h4>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/yazar1.png" alt="" class="w-25 rounded-circle float-left shadow">
+                    <b class="float-left ml-2">Cemil Oktay <small class="d-block">Siyaset</small></b>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/yazar2.png" alt="" class="w-25 rounded-circle float-left shadow">
+                    <b class="float-left ml-2">Ali Ece <small class="d-block">Spor</small></b>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/yazar3.png" alt="" class="w-25 rounded-circle float-left shadow">
+                    <b class="float-left ml-2">Fuat Çapa <small class="d-block">Ekonomi</small></b>
+                </div>
+                <div class="col-12 border-bottom mt-3">
+                    <h4>DÖVİZ</h4>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/dollar.png" alt="" class="w-25 float-left">
+                    <b class="float-left ml-2">DOLAR <span class="text-success d-block">18.53</span></b>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/euro.png" alt="" class="w-25 float-left">
+                    <b class="float-left ml-2">EURO <span class="text-success d-block">19.47</span></b>
+                </div>
+                <div class="clearfix my-3">
+                    <img src="media/pound.png" alt="" class="w-25 float-left">
+                    <b class="float-left ml-2">POUND <span class="text-success d-block">21.16</span></b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="col-12 border-bottom">
+                    <h4>SAĞLIK</h4>
+                </div>
+                <div class="saglik clearfix my-3">
+                    <a href="" class="text-dark">
+                        <img src="media/saglik1.Jpeg" class="float-left rounded" alt="">
+                        <div class="aciklama float-left">
+                            <b>Hafızayı Güçlendiren Besinler</b>
+                            <p>Op.Dr. Kerem Bıkmaz Hafızayı Güçlendiren Besinler Hakkında Bilgi verdi</p>
+                            <small>14.04.2023, 22:19</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="saglik clearfix my-3">
+                    <a href="" class="text-dark">
+                        <img src="media/saglik2.Jpeg" class="float-left rounded" alt="">
+                        <div class="aciklama float-left">
+                            <b>Sarımsak ve Limon !</b>
+                            <p>Uzmanlar Limon ve Sarımsak Tüketmenin Sağlığımıza Olan Yanlış Bilinen Etkilerinden
+                                Bahsetti.</p>
+                            <small>13.04.2023, 12:27</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="saglik clearfix my-3">
+                    <a href="" class="text-dark">
+                        <img src="media/saglik3.Jpeg" class="float-left rounded" alt="">
+                        <div class="aciklama float-left">
+                            <b>Damarları Temizleyen Besinler</b>
+                            <p>İşte Damarların Tıkanmasını Önleyecek Aynı Zamanda Tıkalı Damarları Temizleyecek
+                                Besinler.</p>
+                            <small>12.04.2023, 14:46</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="col-12 border-bottom">
+                    <h4>SPOR</h4>
+                </div>
+                <div class="spor clearfix mt-3">
+                    <a href="haber.html" class="text-dark">
+                        <img src="media/spor1.jpg" class="rounded w-100" alt="">
+                        <b class="d-block">Elmas Lig Finalinde İki Türk Atlet</b>
+                        <small class="d-block">14.03.2023, 14:05</small>
+                    </a>
+                </div>
+                <div class="spor clearfix mt-3">
+                    <a href="" class="text-dark">
+                        <img src="media/spor2.jpg" class="rounded w-100" alt="">
+                        <b class="d-block">Son Şampiyon Nadal Çok Rahat Turladı</b>
+                        <small class="d-block">13.03.2023, 22:17</small>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="col-12 border-bottom">
+                    <h4>TEKNOLOJİ</h4>
+                </div>
+                <div class="teknoloji clearfix mt-2">
+                    <a href="" class="text-dark">
+                        <img src="media/teknoloji1.png" alt="" class="w-100 rounded">
+                        <b class="d-block">Einstein Bir Kez Daha Haklı Çıktı</b>
+                    </a>
+                </div>
+                <div class="teknoloji clearfix mt-2">
+                    <a href="" class="text-dark">
+                        <img src="media/teknoloji2.jpg" alt="" class="w-100 rounded">
+                        <b class="d-block">Galaksi Panoraması Görüntülendi</b>
+                    </a>
+                </div>
+                <div class="teknoloji clearfix mt-2">
+                    <a href="" class="text-dark">
+                        <img src="media/teknoloji3.jpg" alt="" class="w-100 rounded">
+                        <b class="d-block">En Sıcak Gezegen Bulundu</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-3" style="background-color: #0D0909;">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-5 my-auto">
+                    <a href="" class="">
+                        <img src="media/logo.png" alt="" class="d-block mx-auto">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <h4 class="text-white-50">KURUMSAL</h4>
+                    <ul class="list-unstyled alt">
+                        <li>
+                            <a href="" class="text-light">Kullanım Şartları</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Yayın İlkeleri</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Künye</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Reklam</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-2">
+                    <h4 class="text-white-50">HABER</h4>
+                    <ul class="list-unstyled alt">
+                        <li>
+                            <a href="" class="text-light">Gizlilik İlkeleri</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Çerez Politikası</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Veri Politikası</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Güvenlik</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-light">Arşiv</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3 sosyal">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="" class="m-2 d-inline-block">
+                                <img src="media/facebook.png" alt="">
+                            </a>
+                            <a href="" class="m-2 d-inline-block">
+                                <img src="media/instagram.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="m-2 d-inline-block">
+                                <img src="media/twitter.png" alt="">
+                            </a>
+                            <a href="" class="m-2 d-inline-block">
+                                <img src="media/google+.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="container-fluid" style="background-color: #030202;">
+        <div class="row">
+            <span class="mx-auto text-muted p-1 d-inline-block">&copy; 2023 Kopyalanamaz | haber.com</span>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
